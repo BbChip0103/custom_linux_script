@@ -1,0 +1,13 @@
+result=$(top -n 1 | grep -i %Cpu\(s\););
+clear;
+echo "";
+nvidia-smi|head;
+echo "";
+echo "---";
+echo "";
+echo $result;
+echo "";
+echo "---";
+free -h;
+echo "";
+echo "---"
