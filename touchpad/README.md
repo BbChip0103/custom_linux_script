@@ -1,1 +1,4 @@
-# touchpad on/off/toggle script
+# touchpad script
+- on
+- off
+- toggle 
